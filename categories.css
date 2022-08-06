@@ -1,0 +1,16 @@
+.categories {
+    flex-grow: 0;
+    flex-basis: 256px;
+    display: flex;
+    flex-direction: column;
+}
+.categories a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    background-color: rgb(21, 123, 182);
+    color: whitesmoke;
+}
+.categories a:hover {
+    box-shadow: 0 2px 5px -2px black;
+}

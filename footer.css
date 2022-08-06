@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(7, 65, 88);
+  padding: 1rem;
+}
+
+section {
+  margin-right: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+section:last-child {
+  margin-right: 0;
+}
+
+h2 {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+section a {
+  color: white;
+  text-decoration: none;
+  font-weight: 150;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+section a:hover {
+  border-bottom: 1px solid white;
+  margin-bottom: 9px;
+}
